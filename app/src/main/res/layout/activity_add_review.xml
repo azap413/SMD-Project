@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:layout_width="match_parent"
+        android:layout_height="100pt"
+        android:hint="Write Review"
+        android:textSize="10pt"
+        android:textAlignment="viewStart"
+        android:id="@+id/editreview"
+        android:gravity="start" />
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/savereview"
+        android:layout_below="@id/editreview"
+        android:text="SAVE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="savereview"/>
+</RelativeLayout>
